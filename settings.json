@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slo00",
+    "username": "Herobrine",
     "password": "",
     "type": "offline"
   },
@@ -38,8 +38,8 @@
     },
     "chat-log": true,
     "auto-reconnect": false,
-    "auto-reconnect-delay": 200000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 20000000,
+    "max-reconnect-delay": 20000000
   },
   "movement": {
     "enabled": false,
