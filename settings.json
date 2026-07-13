@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "seahorse.aternos.host:47873",
+    "ip": "seahorse.aternos.host",
     "port": 47873,
     "version": "",
     "try-creative": false
