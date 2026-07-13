@@ -14,7 +14,7 @@ function setupLeaveRejoin(bot, createBot) {
     let reconnectAttempts = 0
     let lastLogAt = 0
 
-    function logThrottled(msg, minGapMs = 2000) {
+    function logThrottled(msg, minGapMs = 180000) {
         const now = Date.now()
         if (now - lastLogAt >= minGapMs) {
             lastLogAt = now
